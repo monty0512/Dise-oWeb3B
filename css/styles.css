@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #DDE6ED;
+    color: #27374D;
+    margin: 0;
+    padding: 0;
+}
+
+#home, #about, #portfolio, #contact {
+    min-height: 100vh;
+    margin: auto;
+    padding: 4rem 0;
+}
+/* Navbar */
+.navbar  {
+    background-color: #27374D;
+}
+
+.nav-link, navbar-brand {
+    color: #9DB2BF;
+}
+
+.nav-link:hover {
+    color: #526D82;
+}
+/* Home Section */
+.home {
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.typed-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* about */
+
+.about {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+}
+
+.progress-bar {
+    background-color: #007bff; /* Azul para la barra */
+}
+
+.social-links a {
+    font-size: 2rem;
+    margin: 0 10px;
+}
